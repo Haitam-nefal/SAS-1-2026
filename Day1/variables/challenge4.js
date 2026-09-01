@@ -1,5 +1,7 @@
-const qantiteQarburant = 3
-const distance = 400
+const prompt = require("prompt-sync")()
+
+const qantiteQarburant = prompt("Qantite Qarburant : ")
+const distance = prompt("Distance  : ")
 
 const consomation = (qantiteQarburant / distance) * 100
 

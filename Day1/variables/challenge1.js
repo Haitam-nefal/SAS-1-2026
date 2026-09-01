@@ -1,9 +1,9 @@
-const profile = {
-    "Pseudo": "ShadowX",
-    "Niveau": 12,
-    "Âge": 21,
-    "Score": 4580,
-    "Pays": "Maroc"
-}
+var prompt = require('prompt-sync')();
 
-console.log(profile)
+const Pseudo = prompt("Pseudo : ")
+const Niveau = prompt("Niveau : ")
+const Age = prompt("Age : ")
+const Score = prompt("Score : ")
+const Pays = prompt("Pays : ")
+
+console.log({ Pseudo, Niveau, Age, Score, Pays })

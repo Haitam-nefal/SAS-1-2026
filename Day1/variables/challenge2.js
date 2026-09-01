@@ -1,4 +1,6 @@
-const montantMAD = 11
+const prompt = require("prompt-sync")()
+
+const montantMAD = prompt("Montant Dirham : ")
 const montantEUR = montantMAD / 11
 
 
