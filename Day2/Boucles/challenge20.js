@@ -12,7 +12,5 @@ while (nbr != 0) {
     nbr = parseInt(nbr / 10)
 }
 
-// console.log(palindromNbr);
-// console.log(nbr2);
 
 console.log(palindromNbr === nbr2 ? `${nbr2} → palindrome` : `${nbr2} → pas palindrome`);
