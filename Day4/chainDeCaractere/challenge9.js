@@ -1,11 +1,15 @@
 function nettoyerEspaces(chaine) {
     let newStr = "";
-    for (const element of chaine) {
-        if (element !== " ") newStr += element
+
+    for(let i = 0; i<chaine.length; i++){
+        if(chaine[i] === " " && chaine[+1] === " "){
+            if(i != 0){
+            }
+        }
+        if(chaine[0] === " ") newStr = newStr
     }
-    console.log(chaine.length);
-    console.log(newStr.length);
+
     console.log(newStr);
 }
 
-nettoyerEspaces(" chaine   ")
+nettoyerEspaces(" chaine  ")
