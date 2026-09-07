@@ -1,5 +1,3 @@
-const { use } = require("react");
-
 const user = {
     username: "Ahmed",
     age: 22,
