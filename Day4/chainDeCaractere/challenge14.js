@@ -5,10 +5,3 @@ function masquerCarte(numeroCarte) {
 
 console.log(masquerCarte("1234567812345678"));
 
-
-// let a = "haitam"
-
-// let b = a.slice(0, 2)
-
-// console.log("a : ", a);
-// console.log("b : ", b);
